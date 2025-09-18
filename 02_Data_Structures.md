@@ -74,7 +74,6 @@ c    5
 d    5
 dtype: int64
 ```
-```
 
 ### Series Properties
 
@@ -111,7 +110,6 @@ b    20
 c    30
 d    40
 Name: Sample Series, dtype: int64
-```
 ```
 
 ### Indexing and Accessing Data
@@ -151,6 +149,10 @@ c    30
 d    40
 dtype: int64
 ```
+c    30
+d    40
+dtype: int64
+```
 
 ```python
 # Using .loc and .iloc
@@ -160,7 +162,6 @@ print(s.iloc[1])        # Position-based
 ```
 20
 20
-```
 ```
 
 ### Basic Operations on Series
@@ -214,7 +215,6 @@ min      1.000000
 75%      4.000000
 max      5.000000
 dtype: float64
-```
 ```
 
 ## DataFrames
@@ -285,7 +285,6 @@ print(df4)
 1        2        5
 2        3        6
 ```
-```
 
 ### DataFrame Structure and Properties
 
@@ -343,7 +342,6 @@ min    1.000000  5.000000
 50%    2.500000  6.500000
 75%    3.250000  7.250000
 max    4.000000  8.000000
-```
 ```
 
 ### Understanding Index and Columns
@@ -409,7 +407,6 @@ DataFrame with reset index:
 1     A     92
 2     C     78
 3     A     96
-```
 ```
 
 ### Basic DataFrame Operations
